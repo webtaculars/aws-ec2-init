@@ -2,11 +2,10 @@
 
 { # this ensures the entire script is downloaded #
 yum install -y gcc-c++ make
-curl -sL https://rpm.nodesource.com/setup_6.x | sudo -E bash -
+curl -sL https://rpm.nodesource.com/setup_8.x | sudo -E bash -
 yum -y install nodejs
 
-# yum install git
-# read  -n 1 -p "Input Selection:" mainmenuinput
+yum -y install git
 # yum install redis
 # systemctl start redis
 # yum install -y mongodb-org
