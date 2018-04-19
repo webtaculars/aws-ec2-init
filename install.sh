@@ -3,7 +3,7 @@
 { # this ensures the entire script is downloaded #
 yum install -y gcc-c++ make
 curl -sL https://rpm.nodesource.com/setup_6.x | sudo -E bash -
-yum install nodejs
+yum -y install nodejs
 
 # yum install git
 # read  -n 1 -p "Input Selection:" mainmenuinput
