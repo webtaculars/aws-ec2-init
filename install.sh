@@ -6,6 +6,7 @@ sudo yum update -y
 sudo yum install git -y
 curl -sL https://rpm.nodesource.com/setup_10.x | sudo bash -
 sudo yum install nodejs
+y
 git clone https://github.com/webtaculars-com/email-sender.git
 cd email-sender/
 npm install
