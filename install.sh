@@ -7,7 +7,8 @@ sudo yum install git -y
 curl -sL https://rpm.nodesource.com/setup_10.x | sudo bash -
 sudo yum  -y install nodejs
 git clone https://github.com/webtaculars-com/email-sender-sid.git
-cd email-sender/
+cd email-sender-sid/
 npm install
+npm install -g forever
 
 } # this ensures the entire script is downloaded #
